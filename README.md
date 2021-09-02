@@ -12,7 +12,7 @@ Query
 ("log level" OR "log severity" 
  OR 
 "logging level" OR "logging severity"
-OR ("severity level" AND (logging OR log))
+OR 
+("severity level" AND (logging OR log))
  ```
 
- 
