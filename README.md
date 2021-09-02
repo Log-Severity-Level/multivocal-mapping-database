@@ -1,4 +1,4 @@
-# Log Severity Levels Matter: A multivocal mapping \n \[Database\]
+# Log Severity Levels Matter: A multivocal mapping  \[Database\]
 > DOI: ?
 
 * [Pre-print](?)
