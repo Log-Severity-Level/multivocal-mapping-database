@@ -16,3 +16,4 @@ OR
 ("severity level" AND (logging OR log))
  ```
 
+1. [Query result: 291 papers](peer-reviewed-literature/step1-studies-query.csv)
