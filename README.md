@@ -15,8 +15,11 @@ Search String:
 OR 
 ("severity level" AND (logging OR log))
  ```
+### Stage 1
+1. [Query result: 291 studies](peer-reviewed-literature/step1-studies-query.csv)
+2. [Title reading: 24 studies](peer-reviewed-literature/step2-studies-title-reading.csv)
+3. [Abstract reading: 14 studies](peer-reviewed-literature/step3-studies-abstract-reading.csv)
+4. [Full reading: 9 studies](peer-reviewed-literature/step4-studies-full-reading.csv)
 
-1. [Query result: 291 papers](peer-reviewed-literature/step1-studies-query.csv)
-2. [Title reading: 24 papers](peer-reviewed-literature/step2-studies-title-reading.csv)
-3. [Abstract reading: 14 papers](peer-reviewed-literature/step3-studies-abstract-reading.csv)
-4. [Full reading: 9 papers](peer-reviewed-literature/step4-studies-full-reading.csv)
+### Stage 2
+1. [Snowballing result: 18 studies](peer-reviewed-literature/stage2-full-snowballing.csv)
