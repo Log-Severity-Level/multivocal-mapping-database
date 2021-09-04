@@ -7,7 +7,7 @@
 ## Peer-reviewed literature
 > [Bibtex of the library](all-papers-final.bib)
 
-Query
+Search String:
 ```
 ("log level" OR "log severity" 
  OR 
