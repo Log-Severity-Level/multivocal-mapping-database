@@ -19,3 +19,4 @@ OR
 1. [Query result: 291 papers](peer-reviewed-literature/step1-studies-query.csv)
 2. [Title reading: 24 papers](peer-reviewed-literature/step2-studies-title-reading.csv)
 3. [Abstract reading: 14 papers](peer-reviewed-literature/step3-studies-abstract-reading.csv)
+4. [Full reading: 9 papers](peer-reviewed-literature/step4-studies-full-reading.csv)
