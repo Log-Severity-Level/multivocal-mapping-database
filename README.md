@@ -31,5 +31,5 @@ OR
 ## Logging libraries
 
 1. PYLP Index
-    a. [Print May 2021](logging-libraries/print/PYLP-index-May-2021.pdf)
-    b. Dataset
+    - [Print May 2021](logging-libraries/print/PYLP-index-May-2021.pdf)
+    - Dataset
