@@ -76,4 +76,10 @@ Search String:
     - [Page 3](practitioners-view/prints/Highest-voted-posts-containing_log-levels-is-question_Stack-Overflow-page-3.pdf)
     - [Page 4](practitioners-view/prints/Highest-voted-posts-containing_log-levels-is-question_Stack-Overflow-page-4.pdf)
 
-2. [Log level definitions](practitioners-view/stackoverflow-level-definitions.csv)
+2. StackOverflow prints
+    - [QSO1](practitioners-view/prints/QSO1.pdf)
+    - [QSO2](practitioners-view/prints/QSO2.pdf)
+    - [QSO3](practitioners-view/prints/QSO3.pdf)
+    - [QSO4](practitioners-view/prints/QSO4.pdf)
+
+3. [Log level definitions](practitioners-view/stackoverflow-level-definitions.csv)
