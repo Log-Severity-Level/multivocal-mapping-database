@@ -35,11 +35,14 @@ OR
     - Dataset
 
 2. Google Search:
-    - Python
-    - ```
+
+Python
+
+```
 ("log level" OR "log severity" )
- ```
-    - [Result](logging-libraries/prints/logging library python - Google Search.pdf)
+```
+
+[Result](logging-libraries/prints/logging library python - Google Search.pdf)
 
 
 
