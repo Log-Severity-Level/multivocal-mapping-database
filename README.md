@@ -34,4 +34,13 @@ OR
     - [Print May 2021](logging-libraries/prints/PYPL-index-May-2021.pdf)
     - Dataset
 
-2. [Selected libraries](logging-libraries/libraries-criteria.csv)
+2. Google Search:
+    - Python
+```
+("log level" OR "log severity" )
+ ```
+[Result](logging-libraries/prints/logging library python - Google Search.pdf)
+
+
+
+3. [Found libraries](logging-libraries/libraries-criteria.csv)
