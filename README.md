@@ -61,6 +61,8 @@ OR
 
 4. [Selected libraries with severity levels](logging-libraries/logging-libraries-levels.csv)
 
+5. [Log levels defintions from libraries](logging-libraries/level-definitions.csv))
+
 ## Practitioners' vision
 
 Search String:

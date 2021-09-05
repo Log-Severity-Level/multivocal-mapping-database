@@ -1,0 +1,101 @@
+Level,Library,Quote
+"FINE, FINEST, FINER, VERBOSE",Log4Net,These levels designate fine-grained informational events that are most useful to debug an application.
+VERBOSE,Serilog,"Verbose is the noisiest level, rarely (if ever) enabled for a production app."
+TRACE,Log4J,"A fine-grained debug message, typically capturing the flow through the application"
+,SLF4J,The TRACE Level designates finer-grained informational events than the DEBUG level.
+,Commons Logging,more detailed information. Expect these to be written to logs only.
+,Bunyan,Logging from external libraries used by your app or very detailed application logging.
+,Log4Net,The Trace level designates fine-grained informational events that are most useful to debug an application.
+,Microsoft.Extensions.Logging,Logs that contain the most detailed messages. These messages may contain sensitive application data. These messages are disabled by default and should never be enabled in a production environment
+,Log4Php,Finest-grained informational events.
+,Logrus, Designates finer-grained informational events than the Debug.
+,OSLogging,Writes a trace message to the log.
+DEBUG,Python Lang,"""Houston, we have a %s"", ""thorny problem"""
+,Rust lang,Designates lower priority information
+,Log4J,A general debugging event
+,SLF4J,The DEBUG Level designates fine-grained informational events that are most useful to debug an application.
+,Commons Logging,Detailed information on the flow through the system. Expect these to be written to logs only.
+,Bunyan,"Anything else, i. e. too verbose to bee included in ""info"" level"
+,Syslog-ng,Debug-level messages / The message is only for debugging purposes
+,Log4Net,The Debug level designates fine-grained informational events that are most useful to debug an application.
+,Microsoft.Extensions.Logging,"Logs that are used for interactive investigation during development.
+These logs should primarily contain information useful for debugging
+and have no long-term value"
+,Serilog,"Debug is used for internal system events that are not necessarily observable from the outside, but useful when determining how something happened"
+,Monolog,Detailed debug information
+,Log4Php,Fine-grained informational events that are most useful to debug an application.
+,Logrus,DebugLevel level. Usually only enabled when debugging. Very verbose logging.
+,ZAP,"DebugLevel logs are typically voluminous, and are usually disabled in production."
+,Ruby Logger,Low-level information for developers.
+,OSLogging,Captures verbose information during development that is useful only for debugging your code.
+INFO,Python Lang,"""Houston, we have a %s"", ""interesting problem"""
+,Rust Lang,Designates useful information
+,Log4J,An event for informational purposes
+,SLF4J,The INFO level designates informational messages that highlight the progress of the application at coarse-grained level.
+,Commons Logging,"Interesting runtime events (startup/shutdown). Expect these to be immediately visible on a console, so be conservative and keep to a minimum."
+,Bunyan,Detail on regular operation.
+,Syslog-ng,Informational messages / The message is purely informational
+,Log4Net,The Info level designates informational messages that highlight the progress of the application at coarse-grained level.
+,Microsoft.Extensions.Logging,Logs that track the general flow of the application. These logs should have long-term value.
+,Serilog,Information events describe things happening in the system that correspond to its responsibilities and functions. Generally these are the observable actions the system can perform.
+,Monolog,Interesting events
+,Log4Php,Informational messages that highlight the progress of the application at coarse-grained level.
+,Logrus,General operational entries about what's going on inside the application.
+,ZAP,InfoLevel is the default logging priority.
+,Ruby Logger, Generic (useful) information about system operation.
+,OSLogging,"Captures information that is helpful, but not essential, to troubleshoot problems."
+NOTICE,Syslog,Normal but significant condition / The message describes a normal but important event
+,Log4Net,The Notice level designates informational messages that highlight the progress of the application at the highest level.
+,Monolog,Uncommon events
+,OSLogging,"Captures information that is essential for troubleshooting problems. For example, capture information that might result in a failure."
+WARNING,Python Lang,"""Houston, we have a %s"", ""bit of a problem"""
+,Rust Lang,Designates hazardous situations.
+,Log4J,An event that might possible lead to an error
+,SLF4J,The WARN level designates potentially harmful situations.
+,Commons Logging,"Use of deprecated APIs, poor use of API, 'almost' errors, other runtime situations that are undesirable or unexpected, but not necessarily ""wrong"". Expect these to be immediately visible on a status console."
+,Bunyan,A note on something that should probably be looked at by an operator eventually.
+,Microsoft.Extensions.Logging,"Logs that highlight an abnormal or unexpected event in the application
+flow, but do not otherwise cause the application execution to stop."
+,Monolog,Exceptional occurrences that are not errors
+,Log4Php,Potentially harmful situations which still allow the application to continue running.
+,Logrus,Non-critical entries that deserve eyes.
+,ZAP,"WarnLevel logs are more important than Info, but don't need individual human review."
+,Ruby Logger, A warning.
+,OSLogging,Writes information about a warning to the log.
+ERROR,Python Lang,"""Houston, we have a %s"", ""major problem"""
+,Rust Lang,Designates very serious errors
+,Log4J,"An error in the application, possibly recoverable"
+,SLF4J,The ERROR level designates error events that might still allow the application to continue running.
+,Commons Logging,Other runtime errors or unexpected conditions. Expect these to be immediately visible on a status console.
+,Bunyan,"Fatal for a particular request, but the service/app continues servicing other requests. An operator should look at this soon(ish)."
+,Syslog-ng,Error conditions / The message describes an error
+,Log4Net,The Error level designates error events that might still allow the application to continue running.
+,Microsoft.Extensions.Logging,"Logs that highlight when the current flow of execution is stopped due to a failure. These should indicate a failure in the current activity, not an application-wide failure"
+,Monolog, Runtime errors
+,Log4Php,Error events that might still allow the application to continue running.
+,Logrus,Used for errors that should definitely be noted.
+,ZAP,"ErrorLevel logs are high-priority. If an application is running smoothly, it shouldn't generate any error-level logs."
+,Ruby Logger,A handleable error condition.
+,OSLogging,"Captures errors seen during the execution of your code. If an activity object exists, the system captures information for the related process chain."
+FAULT,OSLogging,"Captures information about faults and bugs in your code. If an activity object exists, the system captures information for the related process chain."
+SEVERE,Log4Net,The Severe level designates very severe error events.
+CRITICAL,Python Lang,"""Houston, we have a %s"", ""major disaster"""
+,Syslog-ng,Critical conditions / The message states a critical condition
+,Log4Net,"The Critical level designates very severe error events. Critical condition, critical."
+,Microsoft.Extensions.Logging,"Logs that describe an unrecoverable application or system crash, or a catastrophic failure that requires immediate attention"
+,Monolog,Critical conditions
+ALERT,Syslog-ng,Action must be taken immediately / Action on the message must be taken imediately
+,Log4Net,"The Alert level designates very severe error events. Take immediate action, alerts."
+,Monolog,Action must be taken immediately 
+FATAL,Log4J,A severe error that will prevent the application from continuing
+,SLF4J,The FATAL level designates very severe error events that will presumably lead the application to abort.
+,Commons Logging,Severe errors that cause premature termination. Expect these to be immediately visible on a status console.
+,Bunyan,The service/app is going to stop or become unusable now. An operator should definitely look into this soon.
+,Log4Net,The Fatal level designates very severe error events that will presumably lead the application to abort.
+,Log4Php,Very severe error events that will presumably lead the application to abort.
+,Logrus,Logs and then calls `logger.Exit(1)`. It will exit even if the logging level is set to Panic.
+,ZAP,"FatalLevel logs a message, then calls os.Exit(1)."
+,Ruby Logger,An unhandleable error that results in a program crash.
+EMERGENCY,Syslog-ng,System is unusable / The message says the system is unusable
+,Log4Net,"The Emergency level designates very severe error events. System unusable, emergencies."
+,Monolog,Urgent alert
