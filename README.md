@@ -36,13 +36,7 @@ OR
 
 2. Google Search:
 
-Python
-
-```
-logging library Python
-```
-
-[Result](logging-libraries/prints/logging-library-python-Google-Search.pdf)
+    - Python: [Result](logging-libraries/prints/logging-library-Python-Google-Search.pdf)
 
 
 
