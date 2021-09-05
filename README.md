@@ -34,7 +34,7 @@ OR
     - [Print May 2021](logging-libraries/prints/PYPL-index-May-2021.pdf)
     - Dataset
 
-2. Google Search:
+2. Google Search prints:
 
     - Python: [Result](logging-libraries/prints/logging-library-Python-Google-Search.pdf)
     - Java: [Result](logging-libraries/prints/logging-library-Java-Google-Search.pdf)
@@ -57,3 +57,16 @@ OR
 
 
 3. [Found libraries](logging-libraries/libraries-criteria.csv)
+
+## Practitioners' vision
+
+Search String:
+```
+"log levels" is:question
+ ```
+
+1. Hits
+    - [Page 1](practitioners-view/prints/Highest-voted-posts-containing_log-levels-is-question_Stack-Overflow-page-1.pdf)
+    - [Page 2](practitioners-view/prints/Highest-voted-posts-containing_log-levels-is-question_Stack-Overflow-page-2.pdf)
+    - [Page 3](practitioners-view/prints/Highest-voted-posts-containing_log-levels-is-question_Stack-Overflow-page-3.pdf)
+    - [Page 4](practitioners-view/prints/Highest-voted-posts-containing_log-levels-is-question_Stack-Overflow-page-4.pdf)
