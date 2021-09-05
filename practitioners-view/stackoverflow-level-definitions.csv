@@ -1,0 +1,43 @@
+Level,Answer,Quote
+TRACE,ASO1,"Only when I would be ""tracing"" the code and trying to find one part of a function specifically."
+,ASO2,Trace is by far the most commonly used severity and should provide context to understand the steps leading up to errors and warnings. (...)
+,ASO3,The TRACE messages are intended for developers when they don't need to log state variables.
+,ASO4,"We don't use this often, but this would be for extremely detailed and potentially high volume logs that you don't typically want enabled even during normal development. (...)"
+,ASO5,Trace is something i have never actually used.
+DEBUG,ASO1,"Information that is diagnostically helpful to people more than just developers (IT, sysadmins, etc.)."
+,ASO2,We consider Debug < Trace. (...)
+,ASO3,The DEBUG messages are intended for developers when they need to log state variables.
+,ASO4,"(...) any message that is helpful in tracking the flow through the system and isolating issues, especially during the development and QA phases. (...)"
+,ASO5,Debug means that something normal and insignificant happened; (...)
+,ASO6,Shouldn't be used at all (and certainly not in production). In development I would advise using a combination of TDD and Debugging (where necessary) as opposed to polluting code with log statements. (...)
+,ASO7, variable contents relevant to be watched permanently
+,ASO8,"If you want to print the value of a variable at any given point, you might call Logger.debug"
+,ASO9,"As the name says, debug messages that we only rarely turn on. (...)"
+INFO,ASO1,"Generally useful information to log (service start/stop, configuration assumptions, etc). Info I want to always have available but usually don't care about under normal circumstances. This is my out-of-the-box config level."
+,ASO2,"This is important information that should be logged under normal conditions such as successful initialization, services starting and stopping or successful completion of significant transactions. (...)"
+,ASO3,The INFO messages are intended for system operators and describe expected states  
+,ASO4,"Things we want to see at high volume in case we need to forensically analyze an issue. System lifecycle events (system start, stop) go here. (...) Typical business exceptions can go here (...)"
+,ASO5,"Info means that something normal but significant happened; the system started, the system stopped, (...)"
+,ASO6,Anything else that we want to get to an operator.(...) log message per significant operation (...).
+,ASO7,"used in functions/methods first line, to show a procedure that has been called or a step gone ok, (...)"
+,ASO9,"Anything that we want to know when looking at the log files, e.g. when a scheduled job started/ended (...)"
+WARN,ASO1,"Anything that can potentially cause application oddities, but for which I am automatically recovering. (...)"
+,ASO2,"This MIGHT be problem, or might not. (...) Viewing a log filtered to show only warnings and errors may give quick insight into early hints at the root cause of a subsequent error. Warnings should be used sparingly so that they don't become meaningless. (...)"
+,ASO3,The WARN messages are intended for system operators when the process can continue in an unwanted state
+,ASO4,"An unexpected technical or business event happened, customers may be affected, but probably no immediate human intervention is required. (...) Basically any issue that needs to be tracked but may not require immediate intervention."
+,ASO5,"Warn means that something unexpected happened, but that execution can continue, perhaps in a degraded mode;(...) Something is not right, but it hasn't gone properly wrong yet - warnings are often a sign that there will be an error very soon."
+,ASO6,This component has had a failure believed to be caused by a dependent component (...). Get the maintainers of THAT component out of bed.
+,ASO7,"not-breaking issues, but stuff to pay attention for. Like a requested page not found"
+,ASO9,"Any message that might warn us of potential problems, (...)"
+ERROR,ASO1,"Any error which is fatal to the operation, but not the service or application (...) These errors will force user (administrator, or direct user) intervention. (...)"
+,ASO2,"Definitely a problem that should be investigated. SysAdmin should be notified automatically, but doesn't need to be dragged out of bed. (...)"
+,ASO3,"The ERROR messages are intended for system operators when, despite the process cannot continue in an unwanted state, the application can continue."
+,ASO4,"The system is in distress, customers are probably being affected (or will soon be) and the fix probably requires human intervention. The ""2AM rule"" applies here- if you're on call, do you want to be woken up at 2AM if this condition happens? If yes, then log it as ""error"""
+,ASO5,Error means that the execution of some task could not be completed; (...) Something has definitively gone wrong.
+,ASO6,This component has had a failure and the cause is believed to be internal (...). Get me (maintainer of this component) out of bed.
+,ASO7,"critical logical errors on application, like a database connection timeout. Things that call for a bug-fix in near future"
+,ASO8,"When responding to an Exception, you might call Logger.error"
+,ASO9,"Any error/exception that is or might be critical. Our Logger automatically sends an email for each such message on our servers (usage: logger.error(""message""); )"
+FATAL,ASO1,Any error that is forcing a shutdown of the service or application to prevent data loss (or further data loss). 
+,ASO2,Overall application or system failure that should be investigated immediately.(...) wake up the SysAdmin. (...) this severity should be used very infrequently. (...) 
+,ASO3,The FATAL messages are intended for system operators when the application cannot continue in an unwanted state.

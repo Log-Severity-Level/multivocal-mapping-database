@@ -75,3 +75,5 @@ Search String:
     - [Page 2](practitioners-view/prints/Highest-voted-posts-containing_log-levels-is-question_Stack-Overflow-page-2.pdf)
     - [Page 3](practitioners-view/prints/Highest-voted-posts-containing_log-levels-is-question_Stack-Overflow-page-3.pdf)
     - [Page 4](practitioners-view/prints/Highest-voted-posts-containing_log-levels-is-question_Stack-Overflow-page-4.pdf)
+
+2. [Log level definitions](practitioners-view/stackoverflow-level-definitions.csv)
