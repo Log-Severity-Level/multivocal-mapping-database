@@ -37,6 +37,22 @@ OR
 2. Google Search:
 
     - Python: [Result](logging-libraries/prints/logging-library-Python-Google-Search.pdf)
+    - Java: [Result](logging-libraries/prints/logging-library-Java-Google-Search.pdf)
+    - JavaScript: [Result](logging-libraries/prints/logging-library-JavaScript-Google-Search.pdf)
+    - C#: [Result](logging-libraries/prints/logging-library-C#-Google-Search.pdf)
+    - C: [Result](logging-libraries/prints/logging-library-C-Google-Search.pdf)
+    - C++: [Result](logging-libraries/prints/logging-library-C++-Google-Search.pdf)
+    - PHP: [Result](logging-libraries/prints/logging-library-php-Google-Search.pdf)
+    - R: [Result](logging-libraries/prints/logging-library-R-Google-Search.pdf)
+    - Objective-C: [Result](logging-libraries/prints/logging-library-ObjectiveC-Google-Search.pdf)
+    - TypeScript: [Result](logging-libraries/prints/logging-library-Typescript-Google-Search.pdf)
+    - Swift: [Result](logging-libraries/prints/logging-library-Swift-Google-Search.pdf)
+    - Kotlin: [Result](logging-libraries/prints/logging-library-Kotlin-Google-Search.pdf)
+    - Matlab: [Result](logging-libraries/prints/logging-library-Matlab-Google-Search.pdf)
+    - Go: [Result](logging-libraries/prints/logging-library-php-Golang-Search.pdf)
+    - Rust: [Result](logging-libraries/prints/logging-library-Rust-Google-Search.pdf)
+    - VBA: [Result](logging-libraries/prints/logging-library-VBA-Google-Search.pdf)
+    - Ruby: [Result](logging-libraries/prints/logging-library-Ruby-Golang-Search.pdf)
 
 
 
