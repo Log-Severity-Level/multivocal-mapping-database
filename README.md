@@ -33,3 +33,5 @@ OR
 1. PYLP Index
     - [Print May 2021](logging-libraries/prints/PYPL-index-May-2021.pdf)
     - Dataset
+
+2. [Selected libraries](logging-libraries/libraries-criteria.csv)

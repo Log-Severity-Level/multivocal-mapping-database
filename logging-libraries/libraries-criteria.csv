@@ -1,0 +1,63 @@
+ID,Library,Language,NO REPEATED?,STATUS
+1,Python Lang,Python,TRUE,ACCEPTED
+2,loguru Python,Python,TRUE,ACCEPTED
+3,Log4j,Java,TRUE,ACCEPTED
+4,Logback,Java,TRUE,ACCEPTED
+5,Log4J2,Java,TRUE,ACCEPTED
+6,Commons Logging,Java,TRUE,ACCEPTED
+7,SLF4J,Java,TRUE,ACCEPTED
+8,Bunyan ,JavaScript,TRUE,ACCEPTED
+9,Pino,JavaScript,TRUE,ACCEPTED
+10,Loglevel,JavaScript,TRUE,ACCEPTED
+11,Winston,JavaScript,TRUE,ACCEPTED
+12,Cabin,JavaScript,TRUE,REJECTED
+13,Js-Logger,JavaScript,TRUE,ACCEPTED
+14,Microsoft.Extensions.Logging,C#,TRUE,ACCEPTED
+15,NLog,C#,TRUE,ACCEPTED
+16,Serilog,C#,TRUE,ACCEPTED
+17,Log4Net,C#,TRUE,ACCEPTED
+18,rxi.log.c,C/C++,TRUE,ACCEPTED
+19,c-logger,C/C++,TRUE,ACCEPTED
+20,log4c,C/C++,TRUE,ACCEPTED
+21,sclog4c,C/C++,TRUE,REJECTED
+22,zlog,C/C++,TRUE,ACCEPTED
+23,monolog,PHP,TRUE,ACCEPTED
+24,analog,PHP,TRUE,REJECTED
+25,log4php,PHP,TRUE,ACCEPTED
+26,Laravel logging,PHP,TRUE,REJECTED
+27,cran-r,R,TRUE,REJECTED
+28,daroczig/logger,R,TRUE,REJECTED
+29,Objective-C Api,Objective-C,TRUE,ACCEPTED
+30,CocoaLumberjack,Objective-C,TRUE,ACCEPTED
+31,Aplogger,Objective-C,TRUE,REJECTED
+32,LibComponentLogging-Core,Objective-C,TRUE,REJECTED
+33,tslog,TypeScript,TRUE,REJECTED
+34,typescript-logging,TypeScript,TRUE,REJECTED
+35,logsemts,TypeScript,TRUE,REJECTED
+36,Objective-C Api,SwiftApi,FALSE,ACCEPTED
+37,swift-log,SwiftApi,TRUE,ACCEPTED
+38,SwiftyBeaver,SwiftApi,TRUE,ACCEPTED
+39,MicroUtils / Kotlin-logging,Kotlin,TRUE,ACCEPTED
+40,inforion / kotlin-logging,Kotlin,TRUE,REJECTED
+41,SLF4J,Kotlin,FALSE,ACCEPTED
+42,log4m,Matlab,TRUE,ACCEPTED
+43,SLF4M,Matlab,TRUE,REJECTED
+44,Logrus,Golang,TRUE,ACCEPTED
+45,uber-go/zap,Golang,TRUE,ACCEPTED
+46,plg.go.dev,Golang,TRUE,REJECTED
+47,kpango/glg,Golang,TRUE,REJECTED
+48,op/go-logging,Golang,TRUE,ACCEPTED
+49,glog,Golang,TRUE,ACCEPTED
+50,Rust-log,Rust,TRUE,ACCEPTED
+51,console_log,Rust,TRUE,REJECTED
+52,env_logger,Rust,TRUE,REJECTED
+53,pretty-env-logger,Rust,TRUE,REJECTED
+54,fern,Rust,TRUE,REJECTED
+55,Bolterauer,VBA,TRUE,ACCEPTED
+56,VBA-Log,VBA,TRUE,REJECTED
+57,Twp-logging,Ruby,TRUE,REJECTED
+58,ruby/logger,Ruby,TRUE,ACCEPTED
+61,PHP Lang,PHP,TRUE,ACCEPTED
+62,spdlog,C/C++,TRUE,ACCEPTED
+63,loguru C++,C/C++,TRUE,ACCEPTED
+65,Glog,C/C++,TRUE,ACCEPTED
