@@ -39,10 +39,10 @@ OR
 Python
 
 ```
-("log level" OR "log severity" )
+logging library Python
 ```
 
-[Result](logging-libraries/prints/logging library python - Google Search.pdf)
+[Result](logging-libraries/prints/logging-library-python-Google-Search.pdf)
 
 
 
