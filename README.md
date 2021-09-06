@@ -1,7 +1,7 @@
 # Log Severity Levels Matter: A multivocal mapping  \[Database\]
 > DOI: ?
 
-* [Pre-print](?)
+* [Pre-print](https://arxiv.org/abs/2109.01192)
 
 * If you use the datasets in your research for publication, please kindly cite the following paper:
     - Eduardo Mendes and Fabio Petrillo. "Log Severity Levels Matter: A mulitvocal mapping." ArXiv preprint 2021.
