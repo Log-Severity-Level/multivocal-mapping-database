@@ -1,10 +1,11 @@
 # Log Severity Levels Matter: A multivocal mapping  \[Database\]
-> DOI: ?
+> DOI: [10.1109/QRS54544.2021.00109](https://doi.org/10.1109/QRS54544.2021.00109)
 
-* [Pre-print](https://arxiv.org/abs/2109.01192)
+* [Paper](https://ieeexplore.ieee.org/document/9724927)
 
 * If you use the datasets in your research for publication, please kindly cite the following paper:
-    - Eduardo Mendes and Fabio Petrillo. "Log Severity Levels Matter: A mulitvocal mapping." ArXiv preprint 2021.
+    - E. Mendes and F. Petrillo, "Log severity levels matter: A multivocal mapping," 2021 IEEE 21st International Conference on Software Quality, Reliability and Security (QRS), 2021, pp. 1002-1013, doi: 10.1109/QRS54544.2021.00109.
+
 
 ## Peer-reviewed literature
 > [Bibtex of the library](all-papers-final.bib)
