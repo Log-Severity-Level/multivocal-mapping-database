@@ -1,0 +1,13 @@
+cff-version: 1.1.0
+message: "If you use this database, please cite it as below."
+authors:
+  - family-names: Mendes
+    given-names: Eduardo
+    orcid: https://orcid.org/0000-0001-8115-9512
+  - family-names: Petrillo
+    given-names: Fabio
+    orcid: https://orcid.org/0000-0002-8355-1494
+title: "Log severity levels matter: A multivocal mapping"
+version: 2.0.4
+doi: 10.1109/QRS54544.2021.00109
+date-released: 2021-09-02
